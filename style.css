@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    background: url(img/fon-2.jpg);
+    min-height: 100%;
+}
+
+.holiday__btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #3c690e;
+    color: white;
+}
+
+.holiday__title {
+    width: 750px;
+    font-size: 100px;
+    color: #000000;
+    margin-top: 0;
+    margin-left: 650px;
+}
+
+.holiday__block {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #613edf;
+    background-color: #f8e8d3;
+    border-radius: 50px;
+    margin-left: 700px;
+}
+
+.holiday__text {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
